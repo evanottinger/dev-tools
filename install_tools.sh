@@ -11,6 +11,11 @@ wget "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" 
 apt install ./code.deb
 echo "[+] VSCode installed!"
 
+# Install gdb
+echo "[>] Installing gdb. . ."
+apt install gdb
+echo "[+] gdb installed!"
+
 # Install PEDA
 echo "[>] Installing PEDA. . ."
 git clone https://github.com/longld/peda.git /opt/peda
