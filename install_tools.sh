@@ -26,3 +26,4 @@ echo "[+] PEDA installed!"
 ## Install addr_to_hexcode.py
 echo "[>] Installing addr_to_hexcode. . ."
 ln -s custom_scripts/addr_to_hexcode.py $(echo PATH | cut -d ":" -f 1)/addr_to_hexcode.py
+echo "[+] addr_to_hexcode installed!"
