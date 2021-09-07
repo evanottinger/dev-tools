@@ -21,3 +21,8 @@ echo "[>] Installing PEDA. . ."
 git clone https://github.com/longld/peda.git /opt/peda
 echo "source /opt/peda/peda.py" >> ~/.gdbinit
 echo "[+] PEDA installed!"
+
+# Custom Scripts
+## Install addr_to_hexcode.py
+echo "[>] Installing addr_to_hexcode. . ."
+ln -s custom_scripts/addr_to_hexcode.py $(echo PATH | cut -d ":" -f 1)/addr_to_hexcode.py
